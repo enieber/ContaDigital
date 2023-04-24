@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{D17ED64D-E00D-4200-BE46-0A131CE8C8E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{8C713EFF-EA94-4C02-8F74-6AC9B2BC8B37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{0B834ABB-6293-4C6C-8AC6-745C80285D74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{0A82DB4F-31A2-490E-999B-22FC3A60309C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Environment", "Environment", "{409ED995-1B14-4AEB-B375-4F56AF6894DB}"
+	ProjectSection(SolutionItems) = preProject
+		.env = .env
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{49801253-83B2-45B4-86BF-C1404B8D6650}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\create_database_tables.sql = Scripts\create_database_tables.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D17ED64D-E00D-4200-BE46-0A131CE8C8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17ED64D-E00D-4200-BE46-0A131CE8C8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17ED64D-E00D-4200-BE46-0A131CE8C8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17ED64D-E00D-4200-BE46-0A131CE8C8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C713EFF-EA94-4C02-8F74-6AC9B2BC8B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C713EFF-EA94-4C02-8F74-6AC9B2BC8B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C713EFF-EA94-4C02-8F74-6AC9B2BC8B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C713EFF-EA94-4C02-8F74-6AC9B2BC8B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B834ABB-6293-4C6C-8AC6-745C80285D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B834ABB-6293-4C6C-8AC6-745C80285D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B834ABB-6293-4C6C-8AC6-745C80285D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B834ABB-6293-4C6C-8AC6-745C80285D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A82DB4F-31A2-490E-999B-22FC3A60309C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A82DB4F-31A2-490E-999B-22FC3A60309C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A82DB4F-31A2-490E-999B-22FC3A60309C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A82DB4F-31A2-490E-999B-22FC3A60309C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98C7D39B-32A7-425C-9646-0C8BEF12D100}
+	EndGlobalSection
+EndGlobal
